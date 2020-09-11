@@ -57,3 +57,11 @@ button{
 button:hover{
   background-color: olivedrab;
 }
+
+.myImage
+{
+  display: inline-block;
+  margin: 0 auto;
+  height: 60px!important;
+  width: 60px!important;
+}
