@@ -1,4 +1,6 @@
 import React,{useState} from 'react';
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 import './App.css';
 
 function App() {
@@ -27,8 +29,8 @@ function App() {
             <br></br>
             <h1>{val}</h1>
             <div id="btns">
-              <button onClick={incValue}>Incre</button>
-              <button onClick={decValue}>Decre</button>
+              <button onClick={incValue}><AddIcon style={{fontSize:"20px"}}/></button>
+              <button onClick={decValue}><RemoveIcon style={{fontSize:"20px"}}/></button>
             </div>
         </div>
 
